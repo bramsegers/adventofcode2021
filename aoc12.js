@@ -13,11 +13,9 @@ let f = (a, b, c, d) => {
   return v
 }
 
-ms=Date.now()
 let [A, B] = ['start', 'end']
 let p1 = f(0, A, A)
 let p2 = f(1, A, A)
-ms=Date.now()-ms
+
 console.log(p1)
 console.log(p2)
-console.log({ms})
